@@ -1,0 +1,14 @@
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Login realizado com sucesso!');
+});
+
+document.getElementById('partilhaForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Poesia partilhada com sucesso!');
+});
+
+document.getElementById('concursoForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Poema enviado para o concurso com sucesso!');
+});
